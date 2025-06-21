@@ -23,7 +23,7 @@
   geography for which providers report business fixed broadband service (for fixed broadband) or
   percentage of area within the geography for which providers report mobile broadband service in an in-
   vehicle mobile environment (for mobile broadband).
-### Mobile Broadband / Fixed Broadband
+### Fixed Broadband
 - `area_data_type`: Type of area across which broadband data are summarized.
     - Value is one of the following:
         - Nontribal
@@ -79,3 +79,43 @@ for which providers report fixed broadband service with speeds of at least 100 /
 for which providers report fixed broadband service with speeds of at least 250 / 25 Mbps.
 - `speed_1000_100`: Calculated percentage of units for broadband serviceable locations contained within the geography
 for which providers report fixed broadband service with speeds of at least 1000 / 100 Mbps.
+
+### Mobile Broadband
+- `area_data_type`: Type of area across which broadband data are summarized.
+    - Value is one of the following:
+        - Nontribal
+        - Rural
+        - Total
+        - Tribal
+        - Urban
+- `geography_type`: Type of geography across which broadband data are summarized.
+    - Value is one of the following:
+        - National
+        - State
+        - County
+        - Congressional District
+        - Census Place
+        - Tribal CBSA (MSA
+- `geography_id`: Unique geographic identifier for the identified Census Place.
+- `geography_desc`: Short description of the identified geography.
+- `geography_desc_full`: Full description of the identified geography.
+- `total_area`: Area, in square kilometers, of the identified Census Place.
+- `mobilebb_3g_area_st_pct`: Calculated percentage of area within the Census Place for which providers report 3G mobile broadband service in an outdoor stationary environment.
+- `mobilebb_3g_area_iv_pct`: Calculated percentage of area within the Census Place for which providers report 3G mobile broadband service in an in-vehicle mobile environment.
+- `mobilebb_4g_area_st_pct`: Calculated percentage of area within the Census Place for which providers report 4G LTE mobile broadband service in an outdoor stationary environment.
+- `mobilebb_4g_area_iv_pct`: Calculated percentage of area within the Census Place for which providers report 4G LTE mobile broadband service in an in-vehicle mobile environment.
+- `mobilebb_5g_spd1_area_st_pct`: Calculated percentage of area within the Census Place for which providers report 5G-NR mobile broadband service with speeds of at least 7 / 1 Mbps in an outdoor
+stationary environment.
+- `mobilebb_5g_spd1_area_iv_pct`: Calculated percentage of area within the Census Place for which providers report 5G-NR mobile broadband service with speeds of at least 7 / 1 Mbps in an in-vehicle
+mobile environment.
+- `mobilebb_5g_spd2_area_st_pct`: Calculated percentage of area within the Census Place or which providers report 5G-NR mobile broadband service with speeds of at least 35 / 3 Mbps in an outdoor
+stationary environment.
+- `mobilebb_5g_spd2_area_iv_pct`: Calculated percentage of area within the Census Place for which providers report 5G-NR mobile broadband service with speeds of at least 35 / 3 Mbps in an in-
+vehicle mobile environment.
+
+
+
+
+
+
+
